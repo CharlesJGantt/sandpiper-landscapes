@@ -19,3 +19,4 @@ npm start
 Visit `http://localhost:3000` to view the site.
 
 Access the editor at `http://localhost:3000/admin?file=content/posts/new-post.md`. Adjust the `file` query parameter to edit or create Markdown files.
+

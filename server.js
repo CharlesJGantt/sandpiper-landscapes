@@ -11,7 +11,7 @@ const turndownService = new TurndownService();
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/static', express.static(path.join(__dirname, 'static')));
-app.use('/', express.static(path.join(__dirname, 'dist')));
+
 
 app.get('/admin', (req, res) => {
   const file = req.query.file || '';
