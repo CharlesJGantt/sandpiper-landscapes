@@ -10,6 +10,13 @@ Install dependencies:
 npm install
 ```
 
+Create a `.env` file based on `.env.example` and add your TinyMCE API key:
+
+```bash
+cp .env.example .env
+echo "TINYMCE_API_KEY=your-key" >> .env
+```
+
 Build the static site and start the editing server:
 
 ```bash
