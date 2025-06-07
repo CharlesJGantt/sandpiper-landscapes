@@ -20,4 +20,3 @@ Visit `http://localhost:3000` to view the site.
 
 Access the editor at `http://localhost:3000/admin?file=content/posts/new-post.md`. Adjust the `file` query parameter to edit or create Markdown files.
 
-The homepage hero image is defined in `static/styles.css` using a remote Unsplash URL. Replace this URL with your own image if desired.

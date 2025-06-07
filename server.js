@@ -11,9 +11,7 @@ const turndownService = new TurndownService();
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/static', express.static(path.join(__dirname, 'static')));
-// Serve generated pages and posts
-app.use('/', express.static(path.join(__dirname, 'dist/pages')));
-app.use('/posts', express.static(path.join(__dirname, 'dist/posts')));
+
 
 app.get('/admin', (req, res) => {
   const file = req.query.file || '';
